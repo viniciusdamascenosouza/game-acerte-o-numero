@@ -1,7 +1,18 @@
 :root {
     --fonte-padrao: 'Rubik Bubbles', sans-serif;
+    --cor-primaria: #21209C;
+    --cor-secundaria: #FDB827;
 }
 
 html {
     font-family: var(--fonte-padrao);
+}
+
+body {
+    background-color: var(--cor-primaria);
+}
+
+.conteudo {
+    color: var(--cor-secundaria);
+    text-align: center;
 }
