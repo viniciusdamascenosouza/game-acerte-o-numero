@@ -1,0 +1,7 @@
+:root {
+    --fonte-padrao: 'Rubik Bubbles', sans-serif;
+}
+
+html {
+    font-family: var(--fonte-padrao);
+}
