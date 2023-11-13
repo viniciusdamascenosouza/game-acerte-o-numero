@@ -16,7 +16,6 @@ body {
     justify-content: center;
     font-family: var(--fonte-padrao);
     font-weight: 300;
-    margin: 0;
 }
 
 .conteudo {
@@ -30,8 +29,17 @@ h1 {
 h2 {
     font-size: 4em;
 }
-
+.box-div {
+    margin: 10px 0;
+    padding: 0 10px;
+}
 .box {
     font-size: 7em;
     font-weight: 400;
+    border: 2px solid var(--cor-secundaria);
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
 }
