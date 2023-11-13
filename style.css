@@ -1,18 +1,37 @@
 :root {
-    --fonte-padrao: 'Rubik Bubbles', sans-serif;
-    --cor-primaria: #21209C;
-    --cor-secundaria: #FDB827;
+    --fonte-padrao: 'Handjet', sans-serif;
+    --cor-primaria: #0174BE;
+    --cor-secundaria: #F1EAFF;
 }
 
-html {
-    font-family: var(--fonte-padrao);
-}
+
 
 body {
     background-color: var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: var(--fonte-padrao);
+    font-weight: 300;
+    margin: 0;
 }
 
 .conteudo {
     color: var(--cor-secundaria);
-    text-align: center;
+}
+
+h1 {
+    font-size: 7em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+.box {
+    font-size: 7em;
+    font-weight: 400;
 }
