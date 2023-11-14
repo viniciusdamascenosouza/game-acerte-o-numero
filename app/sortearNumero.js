@@ -6,8 +6,8 @@ function gerarNumeroSecreto() {
 
 console.log(numeroSecreto);
 
-const menorValor = 9;
-const maiorValor = 900;
+const menorValor = 1;
+const maiorValor = 100;
 
 const elementoMenorValor = document.querySelector("#menor-valor");
 elementoMenorValor.innerHTML = `${menorValor}`;
