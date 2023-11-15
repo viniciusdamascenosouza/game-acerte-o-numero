@@ -18,11 +18,11 @@ recognition.addEventListener("result", (eventoEscutado) => {
 function exibeChute(chute) {
   chuteElemento.innerHTML = `<div>
                               <h2>Você disse:</h2>
-                           </div>
-                           <div class="box-div">
+                             </div>
+                             <div class="box-div">
                               <span class="box">${chute}</span>
-                           </div>
-                           <div>
+                             </div>
+                             <div>
                               <h2>O número secreto é maior <i class="fa-solid fa-up-long"></i></h2>
-                           </div>`;
+                             </div>`;
 }

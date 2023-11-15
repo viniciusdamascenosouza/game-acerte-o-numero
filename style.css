@@ -23,18 +23,20 @@ body {
 }
 
 h1 {
-    font-size: 7em;
+    font-size: 5em;
 }
 
-h2 {
+h2, h3 {
     font-size: 4em;
+    color: var(--cor-secundaria);
 }
+
 .box-div {
     margin: 10px 0;
     padding: 0 10px;
 }
 .box {
-    font-size: 7em;
+    font-size: 5em;
     font-weight: 400;
     border: 2px solid var(--cor-secundaria);
 }
@@ -42,4 +44,8 @@ h2 {
 .mensagem {
     font-size: 1.5em;
     margin-top: 40px;
+}
+
+.valor-invalido {
+    font-size: 3em;
 }

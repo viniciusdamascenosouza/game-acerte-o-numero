@@ -4,7 +4,7 @@ function gerarNumeroSecreto() {
   return parseInt(Math.random() * 100);
 }
 
-console.log(numeroSecreto);
+console.log(`Número Secreto: ${numeroSecreto}`);
 
 const menorValor = 1;
 const maiorValor = 100;
