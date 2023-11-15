@@ -4,7 +4,11 @@
     --cor-secundaria: #F1EAFF;
 }
 
-
+[data-contexto="comemoracao"] {
+    background: url(./img/confetti-10.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 body {
     background-color: var(--cor-primaria);
@@ -31,6 +35,11 @@ h2, h3 {
     color: var(--cor-secundaria);
 }
 
+p {
+    font-size: 4em;
+    color: var(--cor-secundaria);
+}
+
 .box-div {
     margin: 10px 0;
     padding: 0 10px;
@@ -48,4 +57,31 @@ h2, h3 {
 
 .valor-invalido {
     font-size: 3em;
+}
+
+.botao-restart {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid var(--cor-secundaria);
+    color: var(--cor-primaria);
+    font-family: var(--fonte-padrao);
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.botao-restart:hover {
+    cursor: pointer;
+    border: 2px solid var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+#estilos-comemoracao {
+    font-size: 5em;
+    color: var(--cor-primaria);
+}
+.estilos-comemoracao {
+    font-size: 8em;
+    color: var(--cor-primaria);
+    font-weight: 700;
 }

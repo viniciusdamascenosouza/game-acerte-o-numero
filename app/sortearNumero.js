@@ -1,4 +1,5 @@
 const numeroSecreto = gerarNumeroSecreto();
+const botaoRestart = document.querySelector(".botao-restart");
 
 function gerarNumeroSecreto() {
   return parseInt(Math.random() * 100);
@@ -14,3 +15,12 @@ elementoMenorValor.innerHTML = `${menorValor}`;
 
 const elementoMaiorValor = document.querySelector("#maior-valor");
 elementoMaiorValor.innerHTML = `${maiorValor}`;
+
+
+function recarregarPagina() {
+  window.location.reload();
+}
+
+botaoRestart.addEventListener("click", () => {
+  recarregarPagina();
+});

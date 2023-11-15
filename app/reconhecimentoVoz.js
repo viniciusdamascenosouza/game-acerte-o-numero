@@ -22,7 +22,7 @@ function exibeChute(chute) {
                              <div class="box-div">
                               <span class="box">${chute}</span>
                              </div>
-                             <div>
-                              <h2>O número secreto é maior <i class="fa-solid fa-up-long"></i></h2>
-                             </div>`;
+                             `;
 }
+
+recognition.addEventListener("end", () => recognition.start());
