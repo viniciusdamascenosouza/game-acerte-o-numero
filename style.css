@@ -1,45 +1,63 @@
 :root {
-    --fonte-padrao: 'Handjet', sans-serif;
-    --cor-primaria: #0174BE;
-    --cor-secundaria: #F1EAFF;
+    --font-family: 'Handjet', sans-serif;
+    --primary-color: #9BBEC8;
+    --secondary-color: #363062;
 }
 
-
-
 body {
-    background-color: var(--cor-primaria);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     justify-content: center;
-    font-family: var(--fonte-padrao);
-    font-weight: 300;
-}
-
-.conteudo {
-    color: var(--cor-secundaria);
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
 }
 
 h1 {
-    font-size: 7em;
+    font-size: 5em;
 }
 
 h2 {
     font-size: 4em;
 }
-.box-div {
-    margin: 10px 0;
-    padding: 0 10px;
-}
-.box {
-    font-size: 7em;
-    font-weight: 400;
-    border: 2px solid var(--cor-secundaria);
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
 }
 
 .mensagem {
     font-size: 1.5em;
     margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 2px solid var(--secondary-color);
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    color: var(--secondary-color);
+    font-size: 2em;
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+
+.btn-jogar:hover {
+    cursor: pointer;
+    border: 2px solid var(--primary-color);
+    background: var(--secondary-color);
+    color: var(--primary-color);
 }
