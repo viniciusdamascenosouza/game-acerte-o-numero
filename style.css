@@ -1,11 +1,11 @@
 :root {
     --font-family: 'Handjet', sans-serif;
-    --primary-color: #9BBEC8;
-    --secondary-color: #363062;
+    --bg-color: #0AA1DD;
+    --primary-color: #E8F9FD;
 }
 
 body {
-    background-color: var(--secondary-color);
+    background-color: var(--bg-color);
     color: var(--primary-color);
     min-height: 100vh;
     display: flex;
@@ -41,23 +41,4 @@ h3 {
     font-size: 4em;
     padding: 10px;
     margin: 20px;
-}
-
-.btn-jogar {
-    padding: 8px 15px;
-    border: 2px solid var(--secondary-color);
-    background: var(--primary-color);
-    border-radius: 5px;
-    margin-top: 20px;
-    color: var(--secondary-color);
-    font-size: 2em;
-    font-weight: 500;
-    font-family: var(--font-family);
-}
-
-.btn-jogar:hover {
-    cursor: pointer;
-    border: 2px solid var(--primary-color);
-    background: var(--secondary-color);
-    color: var(--primary-color);
 }
