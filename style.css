@@ -1,11 +1,11 @@
 :root {
     --font-family: 'Handjet', sans-serif;
-    --bg-color: #0AA1DD;
-    --primary-color: #E8F9FD;
+    --primary-color: #9BBEC8;
+    --secondary-color: #363062;
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color: var(--secondary-color);
     color: var(--primary-color);
     min-height: 100vh;
     display: flex;
@@ -41,4 +41,23 @@ h3 {
     font-size: 4em;
     padding: 10px;
     margin: 20px;
+}
+
+.btn-restart {
+    padding: 8px 15px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 12px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 2em;
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-weight: 500;
+}
+
+.btn-restart:hover {
+    cursor: pointer;
+    border: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
